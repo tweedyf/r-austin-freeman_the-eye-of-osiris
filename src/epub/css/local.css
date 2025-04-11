@@ -1,6 +1,12 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+blockquote header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -18,4 +24,9 @@ footer{
 
 #chapter-8 i:last-of-type{
 	text-transform: uppercase;;
+}
+
+#chapter-17 blockquote header p:last-of-type{
+	font-style: italic;
+	font-variant: normal;
 }
